@@ -1,0 +1,134 @@
+.title-contact{
+    margin-left: 1%;
+    color: #B31312;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 25px;
+    width: 500px;
+    
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-group  input {
+    padding: 16px;
+    font-size: 16px;
+    
+    
+  }
+
+  .form-group  textarea {
+    padding: 25px;
+    font-size: 16px;
+    
+    
+  }
+
+  .container-button {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-top: 20px;
+  margin-right: -10px;
+  font-size: 15px;
+  
+}
+
+.btn-envoyer {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 16px;
+    margin-top: 50px;
+    background-color:#B31312;
+    margin-left: 6%;
+    
+    width: 20%;
+    
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.btn-envoyer:hover{
+    background-color: black;
+}
+
+.container-btn {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.btn-annuler {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px ;
+    margin-top: 50px;
+    background-color:#ca4717;
+   margin-right: 60%;
+    
+    width: 10%;
+    
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+}
+.contact {
+    color: #ca4717;
+    font-size: 20px;
+    width: 500px;
+    margin-top: 40%;
+}
+
+
+.text {
+   margin-bottom: 15%;
+     color: #666 ;
+     width: 500px;
+     font-size: 20px;
+
+}
+.img-linkdin {
+    width: 32px;
+    margin-top: 15%;
+    
+}
+.img {
+  width: 41px;
+    
+}
+.contact-social {
+    list-style: none;
+    margin-left: 5%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  width: 200px;
+}
+
+.contact-social li {
+    margin-right: 25%; /* Vous pouvez ajuster la valeur selon l'espace souhaité */
+  }
+ 
+
+
+ 
+

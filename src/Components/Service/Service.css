@@ -1,0 +1,32 @@
+.service-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.service-container h3 {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    font-family:cursive;
+   
+
+}
+
+
+.service-container p{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+
+
+
+.service-title-text {
+    margin-bottom: 8%;
+}
+

@@ -14,9 +14,11 @@ function CCM() {
         <div className='service-container'>
         <div className='service-title-text' >
             <h3>Qui sommes nous ?</h3>
-            <p>« CCM Business », 1ère Société Commerciale Tunisienne Certifiée ISO 9001 est une Société SARL exerçant dans le domaine du commerce en gros de tous les articles de quincaillerie, sanitaire, peinture, équipements ménager, agricoles et industriels.
-Elle a été créé en 2009 par son fondateur et gérant MR. MOHAMED DARGUECH, 20 ans après la création de sa première société EDAMO qui exerce le même domaine d’activité mais en détail.</p>
-<p>Chez « CCM Business », nous adaptons à votre mode de fonctionnement. </p>
+            <p>  « CCM Business », 1ère Société Commerciale Tunisienne Certifiée ISO 9001 est une Société SARL exerçant dans le domaine du commerce en gros de tous les articles de quincaillerie, sanitaire, peinture, équipements ménager, agricoles et industriels.
+            Elle a été créé en 2009 par son fondateur et gérant MR. MOHAMED DARGUECH, 20 ans après la création de sa première société EDAMO qui exerce le même domaine d’activité mais en détail.
+
+Chez « CCM Business », nous nous adaptons à votre mode de fonctionnement.
+            </p>
         </div>
 
 
@@ -31,27 +33,29 @@ Elle a été créé en 2009 par son fondateur et gérant MR. MOHAMED DARGUECH, 2
             <Col className="col-4">
                 <Row>
                 <Col><img src={commerce} /></Col>
-                 <Col><h6 className='text-img'>Avec nous commerciaux: en bénéficiant de leur connaissance produit et de leurs conseils </h6></Col>
+                 <Col><h6 className='text-img'><h5>Avec nos commerciaux :</h5>
+ en bénéficiant de leur connaissance produit et de leurs conseils.</h6></Col>
                 </Row>
             </Col>
 
 
+
+
+
+            <Col className="col-4">
+            <Row>
+                <Col><img src={shop}  /></Col>
+                 <Col><h6 className='text-img'><h5>Via notre boutique en ligne :</h5>
+ vous permettant de commander tous les jours à toute heure..</h6></Col>
+                </Row>
+            </Col>
 
 
 
             <Col className="col-4">
             <Row>
                 <Col><img src={ccm} /></Col>
-                 <Col><h6 className='text-img'>Dans notre siége social: situé dans la route de Gremda km 2.5 Sfax-TUNISIE </h6></Col>
-                </Row>
-            </Col>
-
-
-
-            <Col className="col-4">
-            <Row>
-                <Col><img src={shop} /></Col>
-                 <Col><h6 className='text-img'>Via notre boutique en ligne: vous permettant de commander tous les jours à toute heure. </h6></Col>
+                 <Col><h6 className='text-img'><h5>Dans notre siège social : </h5>situé à RT Gremda Km 2.5 Sfax- Tunisie</h6></Col>
                 </Row>
             </Col>
           </Row>

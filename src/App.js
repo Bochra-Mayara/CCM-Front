@@ -10,12 +10,12 @@ import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
 import Product from './Components/Product/Product';
 import Contact from './Components/Contact/Contact';
 
-import Dropdwn from './Components/DropDwn/DropDwn'
+
 import Service from './Components/Service/Service';
 import CCM from './Components/CCM/CCM'
 
 
-import Search from './Components/search-dropdown/Search';
+
 
 
 
@@ -33,10 +33,10 @@ function App() {
     <Route path="/product" element={ <Product/> } />
     <Route path="/contact" element={ <Contact/> } />
     
-    <Route path="/dropDwn" element={ <Dropdwn/> } />
+    
     <Route path="/service" element={ <Service/> } />
     <Route path="/ccm" element={ <CCM/> } />
-    <Route path="/search" element={ <Search/> } />
+    
   </Routes>
   
   );

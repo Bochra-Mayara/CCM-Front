@@ -1,4 +1,4 @@
-import { useState, React } from 'react' 
+import React,{useState, useEffect} from 'react'
 import './Home.css'
 import slider1 from '../../assets/slider/slider1.jpg'
 import slider2 from '../../assets/slider/slider2.jpg'
@@ -30,17 +30,46 @@ import { Link} from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 
+import axios from 'axios';
+
+
 
 
 function Home() {
   // const slides = [slider1, slider2, slider3];
-  const navigate = useNavigate();
+  // const url = 'http://192.168.1.40:1920/api/';
+  // axios.get(`${url}/FamilleArticles`)
+  // .then(response => {
+  //   console.log(response.data);
+      
+  // })
+  // .catch(error => {
+  //   console.log(error);
+  // });
 
+  const [data, setData] = useState([]);
+  const url = 'http://192.168.1.40:1920/api/';
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`${url}/SousFamilleArticles`);
+        setData(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchData();
+  }, []);
+  const navigate = useNavigate();
+  
+  
 const redirecting = () => {
 
   navigate('/product');
 
 }
+
     const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -60,6 +89,12 @@ const redirecting = () => {
       ))}
     </Carousel>
     </div> */}
+
+    <div>
+    {data.map(item => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
     <div  >
     
     
